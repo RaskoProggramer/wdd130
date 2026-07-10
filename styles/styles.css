@@ -41,9 +41,11 @@ aside {
 
 aside img {
     width: 200;
+    height: auto;
 }
 
 footer {
     border-top: #444;
+    margin-top: 1px;
     text-align: center;
 }
