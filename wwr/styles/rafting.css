@@ -2,7 +2,7 @@
     --primary-color: teal;
     --secondary-color: goldenrod;
     --accent1-color: maroon;
-    --accent2-color: green;
+    --accent2-color: white;
     --heading-font: Georgia, serif;
     --body-font: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -45,7 +45,7 @@ nav ul {
 }
 
 nav a {
-    color: white;
+    color: var(--accent2-color);
     text-decoration: none;
     font-weight: bold;
 }
@@ -78,7 +78,7 @@ h2 {
     width: 100%;
     padding: 15px;
     background-color: rgba(128, 0, 0, 0.7);
-    color: white;
+    color: var(--accent2-color);
     text-align: center;
 }
 
