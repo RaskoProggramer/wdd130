@@ -1,6 +1,7 @@
 :root {
     --primary-color: teal;
     --secondary-color: goldenrod;
+    --text-color: black;
     --accent1-color: maroon;
     --accent2-color: white;
     --heading-font: Georgia, serif;
@@ -77,7 +78,7 @@ h2 {
     left: 0;
     width: 100%;
     padding: 15px;
-    background-color: rgba(128, 0, 0, 0.7);
+    background-color: var(--accent1-color);
     color: var(--accent2-color);
     text-align: center;
 }
@@ -87,7 +88,7 @@ h2 {
     bottom: 30px;
     left: 20px;
     right: 20px;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: var(--accent2-color);
     padding: 15px;
 }
 
