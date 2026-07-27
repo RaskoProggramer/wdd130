@@ -99,7 +99,7 @@ h2 {
 }
 
 .hero article p {
-    color: black;
+    color: var(--text-color);
 }
 
 section {
