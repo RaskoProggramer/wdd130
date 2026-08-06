@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Home</title>
     <meta name="author" content="Mpho Rakgope">
     <meta name="description"
       content="About our white water rafting company. See footer for bookings, packages, and social links.">
@@ -25,27 +25,52 @@
     </header>
 
     <main>
+        <section class="home">
+            <h1>Experience the Adventure of a Lifetime</h1>
+            <img src="images/hero-image.webp" alt="hero image for the home page">
+        </section>
 
+        <section class="newsletter">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Stay updated with our latest rafting adventures, special offers, and upcoming events.
+            </p>
 
-        <section class="employee-profile">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname"
+                      placeholder="Enter your full name" required>
+                </div>
 
-            <h2>We Are Here to Serve You</h2>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email"
+                      placeholder="Enter your email address" required>
+                </div>
 
-            <figure>
-                <img src="images/river-rafting-hazyview.jpg" alt="Lead River Guide">
-                <figcaption>Lead River Guide</figcaption>
-            </figure>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+        <section class="grid-content">
+            <div class="grid-item">
+                <img src="images/rafting1.jpg" alt="Family enjoying a rafting adventure">
+                <h2>Our Purpose</h2>
+                <p>
+                    We provide exciting and safe white water rafting adventures for
+                    families, friends, and corporate groups. Our experienced guides
+                    ensure every trip is both thrilling and memorable.
+                </p>
+            </div>
 
-            <figure>
-                <img src="images/river-rafting-in-nepal.jpg" alt="Reservation Specialist">
-                <figcaption>Reservation Specialist</figcaption>
-            </figure>
-
-            <figure>
-                <img src="images/rafting.jpg" alt="Adventure Coordinator">
-                <figcaption>Adventure Coordinator</figcaption>
-            </figure>
-
+            <div class="grid-item">
+                <img src="images/Whitewater.jpg" alt="Raft navigating exciting rapids">
+                <h2>Our Adventures</h2>
+                <p>
+                    Choose from beginner, intermediate, and advanced rafting trips.
+                    We offer half-day, full-day, and multi-day adventures on some of
+                    the most scenic rivers in the region.
+                </p>
+            </div>
         </section>
     </main>
     <footer>

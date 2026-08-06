@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Trips</title>
     <meta name="author" content="Mpho Rakgope">
     <meta name="description"
       content="About our white water rafting company. See footer for bookings, packages, and social links.">
@@ -25,105 +25,94 @@
     </header>
 
     <main>
-        <section class="contact">
-            <h1>Contact Us</h1>
+        <section class="trip-descriptions">
+            <h2>Our Rafting Adventures</h2>
 
-            <h2>White Water Rafting Company</h2>
-            <p>123 Main River Street</p>
-            <p>Kolob, California</p>
-            <p>+1 (999) 999-9999</p>
-            <p>info@whitewater.com</p>
+            <div class="trip-grid">
 
-            <div class="contact-container">
+                <article class="trip-card">
+                    <img src="images/beginner.jpg" alt="Family rafting on calm river">
+                    <h3>Beginner Adventure</h3>
+                    <p>Perfect for families and first-time rafters. Enjoy gentle Class I and II
+                        rapids with
+                        experienced guides.</p>
+                </article>
 
-                <!-- Google Map -->
-                <section class="map">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=https://maps.app.goo.gl/AXVaGDs9KjyQ3NBfA"
-                      loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
-                </section>
+                <article class="trip-card">
+                    <img src="images/river-explorer.jpg"
+                      alt="Group rafting through moderate rapids">
+                    <h3>River Explorer</h3>
+                    <p>Experience exciting Class III rapids while taking in breathtaking scenery on
+                        a
+                        full-day adventure.</p>
+                </article>
 
-                <!-- Contact Form -->
-                <form class="contact-form" action="#" method="post">
+                <article class="trip-card">
+                    <img src="images/rapid-chalenge.webp"
+                      alt="Expert rafters navigating challenging rapids">
+                    <h3>Extreme Rapids Challenge</h3>
+                    <p>Take on thrilling Class IV and V rapids with our expert guides for an
+                        unforgettable
+                        experience.</p>
+                </article>
 
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="John Doe" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="john@example.com"
-                          required>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Message Purpose</label>
-
-                        <div class="radio-group">
-
-                            <label for="general">
-                                <input type="radio" id="general" name="subject"
-                                  value="General Inquiry" checked>
-                                General Inquiry
-                            </label>
-
-                            <label for="reservation">
-                                <input type="radio" id="reservation" name="subject"
-                                  value="Reservation Question">
-                                Reservation Question
-                            </label>
-
-                            <label for="website">
-                                <input type="radio" id="website" name="subject"
-                                  value="Website Suggestion">
-                                Website Suggestion
-                            </label>
-
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="message">Message</label>
-
-                        <textarea id="message" name="message" rows="5"
-                          placeholder="Type your message here..." required></textarea>
-                    </div>
-
-                    <div class="checkbox">
-                        <label for="subscribe">
-                            <input type="checkbox" id="subscribe" name="subscribe">
-                            Please subscribe me to the monthly newsletter.
-                        </label>
-                    </div>
-
-                    <button type="submit">Get in Touch!</button>
-
-                </form>
-
+                <article class="trip-card">
+                    <img src="images/rafting-ambia-sunset.avif" alt="Rafting at sunset">
+                    <h3>Sunset River Journey</h3>
+                    <p>Enjoy a relaxing evening float with beautiful sunset views, calm waters, and
+                        wildlife
+                        along the river.</p>
+                </article>
             </div>
         </section>
+        <section class="trip-table">
+            <h2>Available Rafting Trips</h2>
 
-        <section class="employee-profile">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Trip Name</th>
+                        <th>Duration</th>
+                        <th>Difficulty</th>
+                        <th>Minimum Age</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
 
-            <h2>We Are Here to Serve You</h2>
+                <tbody>
+                    <tr>
+                        <td>Beginner Adventure</td>
+                        <td>Half Day</td>
+                        <td>Class I–II</td>
+                        <td>8 Years</td>
+                        <td>R750</td>
+                    </tr>
 
-            <figure>
-                <img src="images/river-rafting-hazyview.jpg" alt="Lead River Guide">
-                <figcaption>Lead River Guide</figcaption>
-            </figure>
+                    <tr>
+                        <td>River Explorer</td>
+                        <td>Full Day</td>
+                        <td>Class III</td>
+                        <td>12 Years</td>
+                        <td>R1,250</td>
+                    </tr>
 
-            <figure>
-                <img src="images/river-rafting-in-nepal.jpg" alt="Reservation Specialist">
-                <figcaption>Reservation Specialist</figcaption>
-            </figure>
+                    <tr>
+                        <td>Extreme Rapids Challenge</td>
+                        <td>Full Day</td>
+                        <td>Class IV–V</td>
+                        <td>18 Years</td>
+                        <td>R1,850</td>
+                    </tr>
 
-            <figure>
-                <img src="images/rafting.jpg" alt="Adventure Coordinator">
-                <figcaption>Adventure Coordinator</figcaption>
-            </figure>
-
+                    <tr>
+                        <td>Sunset River Journey</td>
+                        <td>3 Hours</td>
+                        <td>Class I</td>
+                        <td>6 Years</td>
+                        <td>R650</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </main>
     <footer>
